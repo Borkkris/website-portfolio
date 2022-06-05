@@ -291,8 +291,8 @@ button:focus,
 /*animate the cloud-back in svg*/
 @-webkit-keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate(446, 48px);
-            transform: translate(446, 48px);
+    -webkit-transform: translate(446px, 48px);
+            transform: translate(446px, 48px);
   }
   to {
     -webkit-transform: translate(100px, 50px);
@@ -301,8 +301,8 @@ button:focus,
 }
 @keyframes cloud-move-reverse {
   from {
-    -webkit-transform: translate(446, 48px);
-            transform: translate(446, 48px);
+    -webkit-transform: translate(446px, 48px);
+            transform: translate(446px, 48px);
   }
   to {
     -webkit-transform: translate(100px, 50px);
