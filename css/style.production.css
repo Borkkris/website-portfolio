@@ -157,6 +157,7 @@ h3 {
 }
 
 .project__item {
+    padding: 10px;
     background-color: lightgray;
 }
 
