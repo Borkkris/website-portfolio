@@ -291,3 +291,24 @@ button:focus,
     font-size: 22px;
   }
 }
+
+.contact {
+  display: grid;
+  grid-template-rows: 1fr;
+  justify-content: center;
+}
+
+#contact-form {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 30px;
+}
+
+.form-item5 {
+  grid-column: 1 / 3;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+}
