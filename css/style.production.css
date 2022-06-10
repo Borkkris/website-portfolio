@@ -157,7 +157,7 @@ h3 {
 }
 
 .project__item {
-    padding: 10px;
+    padding:10px;
     background-color: lightgray;
 }
 
@@ -372,18 +372,26 @@ button:focus,
 }
 
 .contact {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-rows: 1fr;
   grid-template-rows: 1fr;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #contact-form {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: auto 30px auto;
   grid-template-columns: auto auto;
   grid-gap: 30px;
 }
 
 .form-item5 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
   grid-column: 1 / 3;
 }
 
