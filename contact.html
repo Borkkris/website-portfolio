@@ -39,31 +39,37 @@
                 </ul>
             </nav>
     </header>
-    <div>
+    <div class="contact">
         <h1>Contact</h1>
-
         <form method="get" onsubmit="alert('thanks for submitting')" action="index.html" id="contact-form">
-            <label class="standard-label" for="contact-firstname"><b>first name:</b></label> <br>
-            <input id="contact-firstname" required>
-            <br>
-            <br>
-            <label class="standard-label" for="contact-lastname"><b>last name:</b></label> <br>
-            <input id="contact-lastname" required>
-            <br>
-            <br>
-            <label class="standard-label" for="contact-email"><b>E-mail:</b></label> <br>
-            <input type="email" id="contact-email" required>
-            <br>
-            <br>
-            <label class="standard-label" for="contact-tel"><b>Telephone: (###-###-####)</b></label> <br>
-            <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-            <br>
-            <br>
-            <label class="standard-label" for="contact-message"><b>Message: (max. 240)</b></label> <br>
-            <textarea maxlength="240" id="contact-message" required></textarea>
-            <br>
-            <br>
-            <input type="submit" value="Send Message">
+            <div>
+                <label class="standard-label" for="contact-firstname"><b>first name:</b></label> <br>
+                <input id="contact-firstname" required>
+            </div>
+
+            <div>
+                <label class="standard-label" for="contact-lastname"><b>last name:</b></label> <br>
+                <input id="contact-lastname" required>
+            </div>
+
+            <div>
+                <label class="standard-label" for="contact-email"><b>E-mail:</b></label> <br>
+                <input type="email" id="contact-email" required>
+            </div>
+
+            <div>
+                <label class="standard-label" for="contact-tel"><b>Telephone: (###-###-####)</b></label> <br>
+                <input type="tel" id="contact-tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
+            </div>
+
+            <div class= "form-item5">
+                <label class="standard-label" for="contact-message"><b>Message: (max. 240)</b></label> <br>
+                <textarea maxlength="240" id="contact-message" required></textarea>
+            </div>
+            
+            <div>
+                <input type="submit" value="Send Message">
+            </div>
         </form>
         <br>
         <div>
