@@ -1,7 +1,7 @@
 /*
 * Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.12,
-* Autoprefixer: v10.4.4
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
 
@@ -163,11 +163,11 @@ h3 {
 
 .project__item:last-child {
   -ms-grid-column: 3;
-    grid-column-start: 3;
+      grid-column-start: 3;
   -ms-grid-column-span: 0;
   grid-column-end: 3;
   -ms-grid-row: 1;
-    grid-row-start: 1;
+      grid-row-start: 1;
   -ms-grid-row-span: 2;
   grid-row-end: 3;
 }
@@ -181,16 +181,7 @@ h3 {
 .page-footer {
     margin: 0 auto;
     clear: both;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    text-align:center
 }
 
 button, 

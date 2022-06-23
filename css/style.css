@@ -161,8 +161,7 @@ h3 {
 .page-footer {
     margin: 0 auto;
     clear: both;
-    display: flex;
-    flex-direction: column;
+    display: block;
     align-items: center;
 }
 
