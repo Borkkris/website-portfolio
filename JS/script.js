@@ -42,12 +42,12 @@
     let value = telephoneInput.value;
     // if there is no value show the error
     if (!value) {
-      showErrorMessage(telephoneInput, 'mobile number is a required field.');
+      showErrorMessage(telephoneInput, 'mobile number is a required field!');
       return false;
     }
-    // if the length is less then 12 nr. show the error
+    // if the length is less then 12 nr. show the error (how to ignore ‘ ‘???) (how to implement if > 12 then error)
     if (value.length < 12) {
-      showErrorMessage(telephoneInput, 'The mobile number needs to be 12 numbers long.');
+      showErrorMessage(telephoneInput, 'You must enter a valid mobile number!');
       return false;
     }
     
