@@ -391,6 +391,10 @@ textarea {
   height: 100%;
 }
 
+<<<<<<< Updated upstream
 .error-message{
+=======
+.error-message {
+>>>>>>> Stashed changes
   color: red;
 }
