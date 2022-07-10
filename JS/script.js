@@ -25,12 +25,12 @@
     let value = emailInput.value;
     
     if (!value) {
-      showErrorMessage(emailInput, 'E-mail is a required field.');
+      showErrorMessage(emailInput, 'E-mail is a required field!');
       return false;
     }
     //when there is no @ show the error
     if (value.indexOf('@') === -1) {
-      showErrorMessage(emailInput, 'You must enter a valid e-mail address.');
+      showErrorMessage(emailInput, 'You must enter a valid e-mail address!');
       return false;
     }
     
