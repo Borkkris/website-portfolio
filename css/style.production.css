@@ -395,3 +395,8 @@ textarea {
 .error-message{
   color: red;
 }
+
+table {
+  margin: 0 auto;
+
+}
