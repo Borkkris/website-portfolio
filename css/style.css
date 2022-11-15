@@ -33,34 +33,7 @@ body {
     width:200px;
     height: 70px;
 }
-/* Why is this transformation not working?
-.main-navigation a:before, 
-.main-navigation a:after {
-    position: absolute;
-    opacity: 0;
-    font-size: 35px;
-    top: 0px;
-    transition: all 0.3s;
-}
 
-.main-navigation a:before {
-    content: '(';
-    left: 0px;
-    transform: translateX(10px);
-}
-
-.main-navigation a:after {
-    content: ')';
-    left: 0px;
-    transform: translateX(-10px);
-}
-
-.main-navigation a:hover:before, 
-.main-navigation a:hover:after {
-    opacity: 1;
-    transform: translateX(0px);
-}
-*/
 .page-header__item:last-child {
   flex-grow: 1;
   text-align: right;
