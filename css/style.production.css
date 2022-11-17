@@ -90,6 +90,7 @@ body {
 .profile {
     max-width: 700px;
     margin:0 auto;
+    margin-top: 10em;
 }
 
 .profile__portrait {
@@ -109,6 +110,10 @@ body {
 .profile-about ul {
     list-style-type: none;
     padding: 0;
+    text-align: left;
+    margin-left: 11em;
+    margin-right: 11em;
+
 }
 
 h1 {
@@ -177,6 +182,14 @@ h3 {
       grid-row-start: 1;
   -ms-grid-row-span: 2;
   grid-row-end: 3;
+}
+
+.enjoy-list {
+  
+}
+
+.skill-table {
+  text-align: left;;
 }
 /* short way to write that is
 .project__item:last-child {
