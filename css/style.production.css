@@ -145,6 +145,12 @@ h3 {
     height: 30px;
 }
 
+.medium {
+  height: 30px;
+  width: auto;
+
+}
+
 .navigation-list__item--active {
     text-decoration: none;
 }
