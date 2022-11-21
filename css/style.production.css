@@ -40,34 +40,7 @@ body {
     width:200px;
     height: 70px;
 }
-/* Why is this transformation not working?
-.main-navigation a:before, 
-.main-navigation a:after {
-    position: absolute;
-    opacity: 0;
-    font-size: 35px;
-    top: 0px;
-    transition: all 0.3s;
-}
 
-.main-navigation a:before {
-    content: '(';
-    left: 0px;
-    transform: translateX(10px);
-}
-
-.main-navigation a:after {
-    content: ')';
-    left: 0px;
-    transform: translateX(-10px);
-}
-
-.main-navigation a:hover:before, 
-.main-navigation a:hover:after {
-    opacity: 1;
-    transform: translateX(0px);
-}
-*/
 .page-header__item:last-child {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
@@ -361,6 +334,17 @@ button:focus,
   .project {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+  .navigation-list {
+    text-align: left;
+    margin-top: 15px;
+  }
+  .profile__portrait {
+    margin-bottom: 40px ;
+  }
+
+  .profile {
+    margin-top:2em;
   }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
