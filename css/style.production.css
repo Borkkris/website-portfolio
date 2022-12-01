@@ -364,7 +364,6 @@ button:focus,
 .profile-about ul {
     text-align: left;
 }
-}
 @media all and (min-width: 500px) and (max-width: 750px){
   .project {
     -ms-grid-columns: 1fr 20px 1fr;
