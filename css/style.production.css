@@ -164,7 +164,8 @@ h3 {
 }
 
 .skill-table {
-  text-align: center;
+  margin: 0 auto;
+  text-align: left;
 }
 /* short way to write that is
 .project__item:last-child {
