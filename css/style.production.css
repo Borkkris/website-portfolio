@@ -348,6 +348,14 @@ button:focus,
   .profile {
     margin-top:2em;
   }
+  
+  .youtube_img {
+    width: 300px;
+  }
+
+  .project_p {
+    width: 300px;
+  }
 }
 @media all and (min-width: 500px) and (max-width: 750px){
   .project {
