@@ -85,6 +85,16 @@ body {
     padding: 0;
 }
 
+.youtube_img {
+  width: 350px;
+}
+
+.project_p {
+  width: 350px;
+  text-align: left;
+  margin: -9px auto 0 auto
+}
+
 h1 {
     font-size: 30px;
 }
