@@ -86,28 +86,33 @@ body {
 }
 
 .youtube_img {
-  width: 500px;
+  width: 400px;
+  border-radius: 5px;
 }
 
 .chatApp_img {
   width:200px;
   margin: 0 80px 0 80px;
+  border-radius: 5px;
 }
 
 .pokemon_img {
-  width: 500px;
+  width: 400px;
+  border-radius: 5px;
 }
 
 .myFlix-Angular-client_img {
-  width: 500px;
+  width: 400px;
+  border-radius: 5px;
 }
 
 .myFlix-React-client_img {
-  width: 500px;
+  width: 400px;
+  border-radius: 5px;
 }
 
 .project_p {
-  width: 500px;
+  width: 400px;
   text-align: left;
   margin: -9px auto 0 auto
 }
