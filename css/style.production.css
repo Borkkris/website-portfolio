@@ -89,6 +89,23 @@ body {
   width: 500px;
 }
 
+.chatApp_img {
+  width:200px;
+  margin: 0 80px 0 80px;
+}
+
+.pokemon_img {
+  width: 500px;
+}
+
+.myFlix-Angular-client_img {
+  width: 500px;
+}
+
+.myFlix-React-client_img {
+  width: 500px;
+}
+
 .project_p {
   width: 500px;
   text-align: left;
@@ -421,4 +438,5 @@ textarea {
 table {
   margin: 0 auto;
 
+}
 }
