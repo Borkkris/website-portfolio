@@ -85,6 +85,11 @@ body {
     padding: 0;
 }
 
+.dashboard_img {
+  width: 400px;
+  border-radius: 5px;
+}
+
 .youtube_img {
   width: 400px;
   border-radius: 5px;
@@ -113,8 +118,9 @@ body {
 
 .project_p {
   width: 400px;
-  text-align: left;
-  margin: -9px auto 0 auto
+  text-align: center;
+  font-weight: bold;
+  margin: -9px auto 5px auto
 }
 
 h1 {
@@ -160,7 +166,7 @@ h3 {
     display:grid;
     -ms-grid-columns: 1fr 20px 1fr 20px 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .project__item {
@@ -365,13 +371,10 @@ button:focus,
   .profile {
     margin-top:2em;
   }
-  
-  .youtube_img {
-    width: 300px;
-  }
 
   .project_p {
     width: 300px;
+    font-weight: bold;
   }
 
   #about {
