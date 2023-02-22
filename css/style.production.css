@@ -90,6 +90,12 @@ body {
   border-radius: 5px;
 }
 
+.dalle_img {
+  width: 700px;
+  border: 1px solid #357b70 ;
+  border-radius: 5px;
+}
+
 .youtube_img {
   width: 400px;
   border-radius: 5px;
